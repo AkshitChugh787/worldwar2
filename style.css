@@ -1,0 +1,41 @@
+.fa {
+  align-items: flex-end;
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #0e76a8;
+  color: white;
+}
+
+.fa-youtube {
+  background: #ff0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #bc2a8d;
+  color: white;
+}
+.fa-reddit {
+  background: #ff6314;
+  color: white;
+}
+.fa-github {
+  background: black;
+  color: white;
+}
