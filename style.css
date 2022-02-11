@@ -39,3 +39,96 @@
   background: black;
   color: white;
 }
+#searchbar {
+  margin-left: 15%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  width: 30%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+     change its width to 100% */
+input[type="text"]:focus {
+  width: 50%;
+}
+
+#list {
+  font-size: 1.5em;
+  margin-left: 90px;
+}
+.hover_img a {
+  position: relative;
+}
+.hover_img a span {
+  position: absolute;
+  display: none;
+  z-index: 99;
+}
+.hover_img a:hover span {
+  display: block;
+}
+.hover_img a:hover span {
+  height: 100px;
+  width: 100px;
+  overflow: visible;
+  margin-top: -100px; /* Half of the popups height */
+  margin-left: 200px;
+}
+/* .switzerland {
+  background-color: #ff0000;
+} */
+h1.moving {
+  color: white;
+  font-family: "helvetica";
+  font-size: 50px;
+  margin: 10px 5px 5px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 14em;
+  animation: type 2s steps(200, end);
+}
+/* h1:nth-child(2) {
+  animation: type2 2s steps(60, end);
+} */
+
+/* p a{
+  color: lime;
+  text-decoration: none;
+} */
+
+span {
+  animation: blink 10s infinite;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
+
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
+
+::selection {
+  background: black;
+}
